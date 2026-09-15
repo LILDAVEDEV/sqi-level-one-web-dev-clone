@@ -15,14 +15,104 @@ img{
 }
 header{
     /* border: 3px solid black; */
+    padding: .5rem 0;
+    background-color: #F5F6F7;
 }
 .header-wrapper{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     margin: 0 1rem 0 1.5rem;
+    justify-content: space-between;
+}
+.brand{
+    /* border: 2px solid purple; */
 }
 .brand-nav{
-    border: 2px solid green;
+    /* border: 2px solid green; */
+    display: flex;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    gap: 3.5rem;
+}
+.brand-nav ul{
+    /* border: 2px solid black; */
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 1rem;
+}
+
+.brand-nav ul li:first-child a {
+    /* border: 2px solid red; */
+    display: inline-flex;
+    align-items: center;
+    gap: .2rem;
+}
+.brand-nav ul li a{
+    text-decoration: none;
+    color: #202124;
+}
+.functionalities{
+    /* border: 2px solid black; */
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.search-area{
+    /* border: 2px solid yellow; */
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    background-color: rgba(0, 0, 0, 0.039);
+    border-radius: 3rem;
+    padding: .1rem .6rem;
+}
+.search-area svg:first-child{
+    /* border: 2px solid red; */
+    font-size: 1.5rem;
+}
+.search-area input{
+    /* border: 2px solid red; */
+    border: none;
+    padding: .7rem 0 .7rem 0;
+    background-color: rgba(0, 0, 0, 0.039);
+}
+.slash-frame{
+    /* border: 2px solid blue; */
+    padding: .5rem .5rem 0 .5rem;
+    background-color: #FFFFFF;
+    border-radius: .4rem;
+}
+.slash-frame svg{
+    font-size:1rem !important;
+}
+
+.language-area button{
+    background-origin: 1px solid #E8EAED;
+    /* border: 3px solid red; */
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: .3rem;
+    padding: .3rem .5rem .3rem .5rem;
+
+}
+.language-area button svg:first-child{
+    /* border: 2px solid blue; */
+    font-size: 1.5rem;
+}
+.appearance-area svg{
+    font-size: 1.5rem;
+}
+.sign-in-area a{
+    text-decoration: none;
+    color: #202124;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0 0.5rem;
 }
 article{
     /* border: 2px solid red; */
