@@ -16,6 +16,14 @@ img{
 header{
     /* border: 3px solid black; */
 }
+.header-wrapper{
+    border: 1px solid red;
+    display: flex;
+    margin: 0 1rem 0 1.5rem;
+}
+.brand-nav{
+    border: 2px solid green;
+}
 article{
     /* border: 2px solid red; */
     margin: 55px 0;
@@ -372,4 +380,31 @@ width: 43%;
 }
 .section-13{
     border-top: 1px solid #DADCE0;
+}
+.footer-wrapper{
+    border: 2px solid black;
+    display: flex;
+   /* justify-content: space-between; */
+   gap: 3rem;
+}
+.footer-child:first-child{
+    border: 3px solid yellow;
+    width: 30%;
+}
+.footer-child:last-child{
+    border: 2px solid green;
+    /* gap: 7rem; */
+}
+.footer-list{
+    border: 3px solid black;
+}
+.footer-child:last-child{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-child:last-child ul{
+    list-style-type: none;
+}
+.footer-child:last-child ul li a{
+    text-decoration: none;
 }
